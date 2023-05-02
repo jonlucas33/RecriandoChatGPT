@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste API</title>
+</head>
+<body>
+    <div class="background">
+        <div class="cabeçalho">
+            <header>
+                <h1>TESTE API</h1>
+                <h3>Solicite uma informação</h3>
+                <form action="http://localhost:5001/api/prompt" method="post">
+                    <label for="POST-name">Name:</label>
+                    <input id="POST-name" type="text" name="name">
+                    <input type="submit" value="Buscar">
+                  </form>
+            </header>
+        </div>
+    </div>
+    <script src="./server.js"></script>
+</body>
+</html>
